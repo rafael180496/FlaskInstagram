@@ -1,0 +1,25 @@
+pip install flask
+
+depurador activo
+ app.run(debug=True)
+
+
+ render_template(vista)
+
+
+ peewee para DB
+ .create() insert
+ .select()
+ .save()  update
+ .get()   obtener
+ .delete_instance()
+
+
+ flask_login   ---->para auntentificacion
+ flask_bcry   --- para encriptacion
+flask_wtf    --para formularios
+
+ generate_password_hash('rafa')
+ check_password_hash(pass,'aldo')
+
+
